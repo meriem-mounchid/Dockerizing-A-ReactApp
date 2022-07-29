@@ -14,6 +14,7 @@ EXPOSE 4000
 
 CMD ["npm", "run", "dev"]
 
+# Commands Tests For Curiosity ^^
 # Command: docker build -t myapp .
 # To see it: docker images
 # Create Container: docker run --name myappc -dp 4000:4000 myapp
