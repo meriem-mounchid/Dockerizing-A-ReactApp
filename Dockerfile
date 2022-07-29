@@ -12,6 +12,10 @@ COPY . .
 
 EXPOSE 4000
 
+# Demon off
+# CMD ["node", "app.js"]
+
+# Demon on
 CMD ["npm", "run", "dev"]
 
 # Commands Tests For Curiosity ^^
@@ -20,3 +24,4 @@ CMD ["npm", "run", "dev"]
 # Create Container: docker run --name myappc -dp 4000:4000 myapp
 # Start it: docker start NAME
 # docker run --name myappc_nodemon -dp 4000:4000 --rm -v /Users/mmounchi/Desktop/Test/crash-course/api:/app -v /app/node_modules myapp:nodemon
+# docker run --name myapplol -dp 4000:4000 -v /Users/mmounchi/Desktop/Test/crash-course/api:/app -v /app/node_modules myapp
