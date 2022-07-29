@@ -1,10 +1,9 @@
-# Install node.js & express with npm
-npm install -g npm
-node -v
-npm -v
+### Install Pre-requirements:
+#### Install node.js & express with npm
+Command: `npm install -g npm`
 
-chmod u+x app.js
+Cheek: `node -v` `npm -v`
+<!-- chmod u+x app.js
 npm install express
-
 # Run App:
-node app.js
+node app.js -->
