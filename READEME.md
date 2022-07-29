@@ -9,4 +9,10 @@ npm install express
 node app.js 
 # npm install
 -->
+#### Install React.js
+Command: `npx create-react-app myblog`
+
+<!-- cd my-app
+npm start  -->
+
 
