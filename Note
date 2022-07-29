@@ -1,0 +1,10 @@
+# Install node.js & express with npm
+npm install -g npm
+node -v
+npm -v
+
+chmod u+x app.js
+npm install express
+
+# Run App:
+node app.js
